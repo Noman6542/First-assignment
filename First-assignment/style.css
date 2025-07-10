@@ -47,13 +47,52 @@ button:hover{
   font-weight:bold;
   font-style: normal;
   font-size: 65px;
+
 }
 .nav-div{
   text-align: center;
   max-width: 905px auto;
   margin-top: 158px;
+  padding-bottom: 152px;
   
 }
 .nav-div button{
   margin-top: 37px;
+}
+.action-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1140px auto;
+  gap: 220px;
+
+}
+.action-div img{
+  border-radius: 48px;
+  width: 403px;
+  height: 328px;
+}
+.title{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 42px;
+  width: 517px;
+  height: 49px;
+  color: #252432;
+}
+.sub-title{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+  width: 517px;
+  height: 60px;
+  color:rgba(44, 36, 50, 0.5);
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.action{
+  margin:132px 159px 116px 141px;
 }
