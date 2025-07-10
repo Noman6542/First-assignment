@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #f5f8ff;
+}
 .web-head{
   background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
 }
@@ -95,4 +98,104 @@ button:hover{
 }
 .action{
   margin:132px 159px 116px 141px;
+}
+.Users{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1140px auto;
+  gap: 10px;
+  background-color: rgba(147, 71, 255, 0.1);
+  padding: 50px 80px;
+  margin: 0 159px 137px 141px;
+}
+.users-section{
+  padding: 50px 142px;
+}
+.users-h{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 38px;
+  color: #252432;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.user-parents{
+ display: flex;
+ gap:158px
+  
+}
+.user-h{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+font-size: 80px;
+color: #4E47FF;
+}
+.user-p{
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.5);
+text-align: center;
+}
+.users-feedback{
+   align-items: center;
+  justify-content: center;
+  max-width: 1140px auto;
+  margin: 137px 149px;
+}
+.feedback-h{
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 50px;
+}
+.head-feedback{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.review{
+  width: 366.66px;
+  padding: 24px;
+  gap:24px;
+  border-radius: 14px;
+  background-color: #FFFFFF;
+  margin-right: 20px;
+}
+.review-h{
+  width: 221px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: rgba(30, 30, 30, 1);
+}
+.review-p{
+  width: 318.67px;
+  margin-bottom: 24px;
+  color: rgba(30, 30, 30, 1);
+}
+.review-footer{
+  display: flex;
+  gap:2px;
+}
+.footer-img img{
+border-radius: 9999px;
+width: 40px;
+height: 40px;
+}
+.footer-img{
+  margin-right: 12px;
+}
+.name-h{
+  color: rgba(117, 117, 117, 1);
+}
+.name-p{
+color: rgba(179, 179, 179, 1);
 }
