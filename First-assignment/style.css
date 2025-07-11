@@ -238,6 +238,7 @@ color: rgba(179, 179, 179, 1);
 }
 .img-box{
   overflow: hidden;
+  padding: 20px 150px 71px 150px;
 }
 .img-box img{
   border-radius: 48px;
@@ -249,7 +250,6 @@ color: rgba(179, 179, 179, 1);
 
 }
 .optional-all img{
-  padding: 20px 150px 71px 150px;
    border-radius: 48px;
 }
 .optional-all{
@@ -259,14 +259,20 @@ text-align: center;
 }
 /* my form */
 
-
-
+.focused-title, .focused-form{
+  width: 50%;
+}
+.focused-form{
+  display: flex;
+  justify-content: flex-end;
+}
 
 .focused-all{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 93px 150px 14px 150px;
+  gap: 115;
+  /* padding: 93px 150px 14px 150px; */
   
 }
 .form-child label{
@@ -304,14 +310,9 @@ text-align: center;
   font-size: 97px;
   color: #000000;
 }
-.focused-title{
-  width: 100%;
-  padding: 129px 115px 129px 0;
-}
 .my-form{
   max-width: 500px;
   width: 100%;
-  margin: 0 auto;
 }
 .form-child input,
 .form-child textarea,
