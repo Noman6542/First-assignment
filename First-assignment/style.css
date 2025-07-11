@@ -9,7 +9,8 @@ body{
   background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
 }
 .web-nav{
-  max-width: 1140 auto;
+  max-width: 1440px;
+  margin:0 auto;
   padding:50px;
 }
 .web-nav ul{
@@ -52,23 +53,25 @@ button:hover{
   font-size: 65px;
 
 }
+
 .nav-div{
   text-align: center;
-  max-width: 905px auto;
-  margin-top: 158px;
+  max-width: 905px;
+  width: 100%;
+  margin-top: 158px ;
   padding-bottom: 152px;
-  
+  margin:0 auto;
 }
 .nav-div button{
   margin-top: 37px;
 }
 .action-div{
   display: flex;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
-  max-width: 1140px auto;
-  gap: 220px;
-
+  max-width: 1440px auto;
+  gap:220px;
 }
 .action-div img{
   border-radius: 48px;
@@ -97,20 +100,25 @@ button:hover{
   margin-bottom: 23px;
 }
 .action{
-  margin:132px 159px 116px 141px;
+  padding:132px 159px 116px 141px;
+
 }
+
 .Users{
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1140px auto;
-  gap: 10px;
-  background-color: rgba(147, 71, 255, 0.1);
-  padding: 50px 80px;
-  margin: 0 159px 137px 141px;
+  max-width: 1440px;
+  margin:0 auto;
+  width: 100%;
+  
+ 
+  
 }
 .users-section{
   padding: 50px 142px;
+  width: 100%;
+   background-color: rgba(147, 71, 255, 0.1);
 }
 .users-h{
   font-family: "Raleway", sans-serif;
@@ -124,7 +132,7 @@ button:hover{
 }
 .user-parents{
  display: flex;
- gap:158px
+ justify-content: space-around;
   
 }
 .user-h{
@@ -144,8 +152,11 @@ text-align: center;
 .users-feedback{
    align-items: center;
   justify-content: center;
-  max-width: 1140px auto;
-  margin: 137px 149px;
+  max-width: 1440px;
+  margin:0 auto;
+  width: 100%;
+ padding-top: 116px;
+ padding-bottom: 158px;
 }
 .feedback-h{
   text-align: center;
@@ -159,16 +170,18 @@ text-align: center;
 }
 .head-feedback{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  
 }
 .review{
   width: 366.66px;
   padding: 24px;
-  gap:24px;
+  
   border-radius: 14px;
   background-color: #FFFFFF;
-  margin-right: 20px;
+  padding-right: 20px;
 }
 .review-h{
   width: 221px;
@@ -177,13 +190,13 @@ text-align: center;
   color: rgba(30, 30, 30, 1);
 }
 .review-p{
-  width: 318.67px;
+  width:100%;
   margin-bottom: 24px;
   color: rgba(30, 30, 30, 1);
 }
 .review-footer{
   display: flex;
-  gap:2px;
+ 
 }
 .footer-img img{
 border-radius: 9999px;
@@ -191,11 +204,44 @@ width: 40px;
 height: 40px;
 }
 .footer-img{
-  margin-right: 12px;
+  padding-right: 12px;
 }
 .name-h{
   color: rgba(117, 117, 117, 1);
 }
 .name-p{
 color: rgba(179, 179, 179, 1);
+}
+.container{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.optional-h{
+ font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 1);
+  padding:71px 312px 20px 312px;
+}
+.optional-p{
+  color: rgba(0, 0, 0, 0.5);
+  padding-right: 327px;
+  padding-left: 327px;
+  padding-bottom: 20px;
+}
+.optional-img{
+   padding: 20px 150px 71px 150px;
+   border-radius: 48px;
+}
+.optional-body{
+  text-align: center;
+
+}
+.optional-all{
+  background-color: #FFFFFF;
+border-radius: 48px;
+text-align: center;
 }
