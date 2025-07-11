@@ -23,7 +23,7 @@ body{
   text-decoration: none;
 }
 .logo{
-  font-family: "Archivo Black", sans-serif;
+  font-family: "inter Black", sans-serif;
   font-weight: 400;
   font-style: normal;
 font-size: 34px;
@@ -232,16 +232,131 @@ color: rgba(179, 179, 179, 1);
   padding-left: 327px;
   padding-bottom: 20px;
 }
-.optional-img{
-   padding: 20px 150px 71px 150px;
-   border-radius: 48px;
+.optional-all{
+  max-width: 1140;
+  margin: auto;
+}
+.img-box{
+  overflow: hidden;
+}
+.img-box img{
+  border-radius: 48px;
+  width: 840px;
+  height: 364px;
 }
 .optional-body{
   text-align: center;
 
 }
+.optional-all img{
+  padding: 20px 150px 71px 150px;
+   border-radius: 48px;
+}
 .optional-all{
   background-color: #FFFFFF;
 border-radius: 48px;
 text-align: center;
+}
+/* my form */
+
+
+
+
+.focused-all{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 93px 150px 14px 150px;
+  
+}
+.form-child label{
+ display: block;
+ padding-top: 19px;
+ padding-bottom: 10px;
+}
+.form-child button{
+ margin-bottom: 19px; 
+ padding: 19px 101px;
+ margin-top: 19px;
+}
+.form-child input{
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFFFFF;
+  gap: 10px;
+
+}
+.form-child textarea{
+  padding-top: 10px;
+  padding-bottom: 19px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFFFFF;
+  gap: 10px;
+  padding: 20px 32px;
+}
+.focused-h{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 97px;
+  color: #000000;
+}
+.focused-title{
+  width: 100%;
+  padding: 129px 115px 129px 0;
+}
+.my-form{
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.form-child input,
+.form-child textarea,
+.form-child button{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+.footer{
+  padding: 104px 455px;
+}
+
+.footer-p {
+  color: rgba(139, 135, 161, 1);
+}
+
+.footer-h {
+  font-family: "inter Black", sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  color: #4E47FF;
+  margin-bottom: 10px;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.footer-nav a{
+  text-decoration: none;
+}
+.footer-nav a:hover{
+  text-decoration:underline ;
 }
